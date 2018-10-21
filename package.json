@@ -1,0 +1,27 @@
+{
+    "name": "ibm-cloud-static-web",
+    "version": "1.0.0",
+    "description": "A Nodejs web server to run static website pages",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/victorshinya/ibm-cloud-static-web.git"
+    },
+    "author": "Victor Kazuyuki Shinya <contato@victorshinya.com.br>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/victorshinya/ibm-cloud-static-web/issues"
+    },
+    "homepage": "https://github.com/victorshinya/ibm-cloud-static-web#readme",
+    "dependencies": {
+        "express": "^4.16.2"
+    },
+    "engines": {
+        "node": "^8.9.4",
+        "npm": "^5.6.0"
+    }
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ctrll Fw</title>
+
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="bower_components/morris.js/morris.css">
+  <link rel="stylesheet" href="bower_components/jvectormap/jquery-jvectormap.css">
+  <link rel="stylesheet" href="bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="bower_components/bootstrap-daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+  <div class="wrapper">
+    <header class="main-header">
+      <a href="index.html" class="logo">
+        <span class="logo-mini">
+          <b>C</b>FW</span>
+        <span class="logo-lg">
+          <b>Ctrl </b>FW</span>
+      </a>
+      <nav class="navbar navbar-static-top">
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+          <span class="sr-only">Navegação</span>
+        </a>
+
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <li class="dropdown messages-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-envelope-o"></i>
+                <span class="label label-success">4</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="header">Você tem 1 mensagem</li>
+                <li>
+                  <ul class="menu">
+                    <li>
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Feira cultural
+                          <small>
+                            <i class="fa fa-clock-o"></i> 2 hours</small>
+                        </h4>
+                        <p>A feira cultura será realizada.. </p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="footer">
+                  <a href="#">Ver todas as Mensagens</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <aside class="main-sidebar">
+      <section class="sidebar">
+        <div class="user-panel">
+          <div class="pull-left image">
+            <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          </div>
+          <div class="pull-left info">
+            <p>Alexander Pierce</p>
+            <a href="#">
+              <i class="fa fa-circle text-success"></i> Online</a>
+          </div>
+        </div>
+        <form action="#" method="get" class="sidebar-form">
+          <div class="input-group">
+            <input type="text" name="q" class="form-control" placeholder="Pesquisar">
+            <span class="input-group-btn">
+              <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                <i class="fa fa-search"></i>
+              </button>
+            </span>
+          </div>
+        </form>
+
+        <ul class="sidebar-menu" data-widget="tree">
+          <li class="header">Navegação principal</li>
+          <li class="">
+            <a href="index.html">
+              <i class="fa fa-home"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="">
+              <a href="dashboard.html">
+                <i class="fa fa-cubes"></i>
+                <span>Dashboard</span>
+              </a>
+          </li>
+          <li class="">
+            <a href="boletim.html">
+              <i class="fa fa-dashboard"></i>
+              <span>Boletim</span>
+            </a>
+          </li>
+          <li class="">
+            <a href="evento.html">
+              <i class="fa fa-arrow-right"></i>
+              <span>Eventos</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </aside>
+
+    <div class="content-wrapper">
+      <section class="content-header">
+        <h1>
+          Home
+          <small>Painel</small>
+        </h1>
+        <ol class="breadcrumb">
+          <li>
+            <a href="#">
+              <i class="fa fa-dashboard"></i> Home</a>
+          </li>
+          <!-- <li class="active">Home</li> -->
+        </ol>
+      </section>
+
+      <section class="content">
+        <div class="row">
+          <div class="col-lg-4 col-xs-4">
+            <div class="small-box bg-aqua">
+              <div class="inner">
+                <h3>Boletim</h3>
+
+                <p>Notas e faltas</p>
+              </div>
+              <div class="icon">
+                <i class="fa fa-dashboard"></i>
+              </div>
+              <a href="boletim.html" class="small-box-footer">Informações
+                <i class="fa fa-arrow-circle-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-xs-4">
+            <div class="small-box bg-green">
+              <div class="inner">
+                <h3>Eventos</h3>
+
+                <p>Todos os eventos</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="evento.html" class="small-box-footer">Informações
+                <i class="fa fa-arrow-circle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <section class="content">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="box box-primary">
+                <div class="box-header with-border">
+                  <h3 class="box-title">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Observações do professor</font>
+                    </font>
+                  </h3>
+                </div>
+                <div class="box-body">
+                  <a href="#">
+                    <i class="fa fa-warning text-yellow"></i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;"> No dia 20/10 (Domingo, Dia da Eleição), não teremos AULA.
+                      </font>
+                    </font>
+                  </a>
+                </div>
+              </div>
+              <div style="padding-bottom: 15px; max-width: 100%; overflow: hidden;">
+                <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle" style="display: block; height: 90px;" data-ad-client="ca-pub-6272584992356792" data-ad-slot="5657143564"
+                  data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done">
+                  <ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1089px;background-color:transparent;">
+                    <ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1089px;background-color:transparent;">
+                      <iframe width="1089" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true"
+                        scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}"
+                        id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;width:1089px;height:90px;"></iframe>
+                    </ins>
+                  </ins>
+                </ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+              </div>
+        </section>
+
+      </section>
+      </div>
+      <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+          <b>Version</b> 1.0.0
+        </div>
+      </footer>
+
+      <div class="control-sidebar-bg"></div>
+      </div>
+
+      <script src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+      <script>
+        $.widget.bridge('uibutton', $.ui.button);
+      </script>
+      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="bower_components/raphael/raphael.min.js"></script>
+      <script src="bower_components/morris.js/morris.min.js"></script>
+      <script src="bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+      <script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+      <script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+      <script src="bower_components/jquery-knob/dist/jquery.knob.min.js"></script>
+      <script src="bower_components/moment/min/moment.min.js"></script>
+      <script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+      <script src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+      <script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+      <script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+      <script src="bower_components/fastclick/lib/fastclick.js"></script>
+      <script src="dist/js/adminlte.min.js"></script>
+      <script src="dist/js/pages/dashboard.js"></script>
+      <script src="dist/js/demo.js"></script>
+</body>
+
+</html>
